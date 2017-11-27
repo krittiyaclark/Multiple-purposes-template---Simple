@@ -1,0 +1,2484 @@
+/*-----------------------------------------------------------------------------
+
+version:   	1.0
+date:      	07/18/12
+author:		ThemeYourWeb
+email:      krittiyaclark@gmail.com
+twitter:    @themyourweb
+
+-----------------------------------------------------------------------------*/
+
+/* ==========================================================================
+
+   Author's custom styles
+   
+   ========================================================================== */
+
+
+
+/* Setting
+   =============================================== */
+
+        
+/* ==========================================================================
+   #Font Setting
+   ========================================================================== */
+
+h1, h1 span, h1 a {
+	font-size:24px;
+	line-height:26px;
+	text-align: left;
+}
+
+h2, h2 span, h2 a {
+	font-size:21px;
+	line-height:23px;
+	text-align: left;
+}
+
+h3, h3 span, h3 a {
+	font-size:19px;
+	line-height:21px;
+	text-align: left;
+}
+
+h4, h4 span, h4 a {
+	font-size:16px;
+	line-height:18px;
+	text-align: left;
+}
+
+h5, h5 span, h5 a {
+	font-size:16px;
+	line-height:18px;
+	text-align: left;
+}
+
+h6, h6 span, h6 a {
+	font-size:14px;
+	line-height:16px;
+	text-align: left;
+}
+
+/* #Fonts
+================================================== */
+
+/* You can find theme in foundation.css except #logo */
+
+/*body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+  font-family: 'NovecentowideBookBold','Helvetica Neue',Helvetica,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'NovecentowideBookBold','Helvetica Neue',Helvetica,sans-serif;
+}
+
+#logo {
+  font-family: 'Sofia', cursive;
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+ul,
+ol,
+dl {
+  font-family: inherit;
+}
+
+button, .button {
+  font-family: inherit;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  font-family: inherit;
+}
+
+.keystroke,
+kbd {
+  font-family: "Consolas", "Menlo", "Courier", monospace;
+}
+
+*/
+
+/* ==========================================================================
+   Margin 
+   ========================================================================== */
+
+.bottom-1 {
+    margin-bottom: 15px !important;
+}
+
+.bottom-2 {
+    margin-bottom: 25px !important;
+}
+
+.bottom-3 {
+    margin-bottom: 35px !important;
+}
+
+.bottom-4 {
+    margin-bottom: 45px !important;
+}
+
+.bottom-5 {
+    margin-bottom: 55px !important;
+}
+
+.top-1 {
+    margin-top: 15px !important;
+}
+
+.top-2 {
+    margin-top: 25px !important;
+}
+
+.top-3 {
+    margin-top: 35px !important;
+}
+
+.top-4 {
+    margin-top: 45px !important;
+}
+
+.top-5 {
+    margin-top: 55px !important;
+}
+
+/* ==========================================================================
+   Padding 
+   ========================================================================== */
+
+.padding {
+	padding: 30px 0 30px 0;
+}
+
+.padding-1 {
+	padding : 50px 0 50px 0;
+}
+
+.padding-bottom-1 {
+    padding-bottom: 15px !important;
+}
+
+.padding-bottom-2 {
+    padding-bottom: 25px !important;
+}
+
+.padding-bottom-3 {
+    padding-bottom: 35px !important;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 45px !important;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 55px !important;
+}
+
+.padding-top-1 {
+    padding-bottom: 15px !important;
+}
+
+.padding-top-2 {
+    padding-bottom: 25px !important;
+}
+
+.padding-top-3 {
+    padding-bottom: 35px !important;
+}
+
+.padding-top-4 {
+    padding-bottom: 45px !important;
+}
+
+.padding-top-5 {
+    padding-bottom: 55px !important;
+}
+
+.paddingLR {
+	padding: 0 15px 0 15px !important;
+}
+
+/* ==========================================================================
+   Clearfix 
+   ========================================================================== */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* ==========================================================================
+   Body Background 
+   ========================================================================== */
+
+.bodyBg {
+	background-image: url(../img/light_noise_diagonal_@2X.png);
+	background-repeat: repeat;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header {
+    border-bottom: 1px solid #ececec;
+	padding: 15px 0 15px 0;
+	height: 125px;
+}
+
+/* ==========================================================================
+   Header Background 
+   ========================================================================== */
+
+.headerBg {
+	background-color: #383838;
+	height: 50px;
+}
+
+/* ==========================================================================
+   Page Header 
+   ========================================================================== */
+
+.pageHeader {
+    border-top: 3px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+    .pageHeader .span1 {
+	    font-size: 50px;
+	    font-weight: lighter;
+     }
+
+	    .pageHeader span {
+		    font-weight: lighter;
+	    }
+
+/* ==========================================================================
+   Font Large 
+   ========================================================================== */
+
+.fontLarge {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/* ==========================================================================
+   HR 
+   ========================================================================== */
+
+hr,
+.hr2 {
+  clear: both; 
+  float: none; 
+  width: 50%;
+  height: 1px;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+      hr {
+        margin: 0 auto;
+      }
+      
+        .hr2 {
+	        float: left;
+	    }
+        
+.hrAlt {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	clear: both;
+	margin: 10px 1%;
+	position: relative;
+	float: none; 
+	height: 4px;
+	max-width: 100%;
+	width: 98%;  
+}
+
+.titleCr h1 img {
+	margin: 0 auto;
+}
+
+/* #Page Styles
+================================================== */
+
+/* ==========================================================================
+   About 
+   ========================================================================== */
+
+.about {
+	line-height: 30px;
+    padding-top: 9px;
+}
+
+    .meterTitle {
+        color: white;
+	    left: 34px;
+	    position: absolute;
+	    height: 9px;
+}
+  
+/* ==========================================================================
+   Our Team 
+   ========================================================================== */
+
+.team .teamMember img {
+    position: relative; 
+    width: 100%; /* for IE 6 */
+	opacity: 0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
+
+}
+
+    .team .teamMember img:hover {
+	    opacity: 1;
+	    filter:alpha(opacity=10); /* For IE8 and earlier */
+
+    } 
+        
+            .team .teamMember h3 span.spacer {
+                padding:0 5px;
+            } 
+            
+                .team .teamInfo p {
+                    color: white;
+	                padding: 19px;
+	            }
+                
+                    .team .teamInfo h3 {
+                       border-bottom: 1px dashed white;
+                       color: white;
+                       padding: 15px;
+                    }
+                
+				         .team .teamInfo h3 span {
+					        color: white; 
+						    font-size: 15px;
+						    letter-spacing: -1px;  
+						  }
+		
+		                    .team .teamInfo ul.icons {
+		                            font-size: 13px;
+					                text-align: center;
+					                padding-bottom: 15px;
+				                }
+				                
+			                      .team .teamInfo ul.icons li {
+					                  color: #5F5F5F;
+					               }
+						             
+						                .team .teamInfo ul.icons li {
+							                text-align: center;
+							                padding: 5px;
+						                }
+					             
+							                .team .teamInfo ul.icons li:hover {
+								                    color: #5F5F5F;
+								                }
+
+
+/* ==========================================================================
+   Team Homepage 
+   ========================================================================== */
+
+.team {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 15px;
+}
+
+    .team:last-child {
+	    border-bottom: none;
+	    margin-bottom: 0;
+    } 
+    
+.teamH figure img {
+	background-color: #5BBBA4;
+	
+	border-radius: 50px;
+	    -moz-border-radius: 50px;
+	     -webkit-border-radius: 50px;
+	   
+	   color: white;  
+	   line-height: 9px;
+	   position: relative;
+	   text-align: center;
+	   vertical-align: middle;
+	   padding: 9px;
+       height: 90px;
+       width: 90px;
+}
+
+.teamH figcaption h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.teamH figcaption h3 span {
+    display: inherit;
+	font-size: 15px;
+	margin-left: 0;
+	padding-top: 5px;
+}
+
+
+/* ==========================================================================
+   Page 404	
+   ========================================================================== */
+
+.errorPage {
+    background-color: #F9F9F9;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 15px 0 15px 0;
+	text-align: center;
+	
+}	           
+
+.errorPage i {
+    color: #616161;
+	font-size: 100px;
+	text-align: center;
+}	
+
+    .errorPage h3 {
+		font-size: 50px;
+		text-align: center;
+		margin-top: 28px;
+}	  
+
+        .errorPage p {
+			text-align: center;
+}	           
+
+/* ==========================================================================
+   Single Portfolio Without Slider 
+   ========================================================================== */
+
+.singleWithoutSlider li {
+	list-style: none;
+    padding-bottom: 28px;
+	width: 100%;
+}   
+
+/* ==========================================================================
+   Blog1, Blog2, Blog3 Title 
+   ========================================================================== */
+
+.blog1 .title a,
+.blog2 .title a,
+.blog3 .title a {
+	color: #4B4C4D;
+}
+
+    .blog1 .title a:hover,
+    .blog2 .title a:hover,
+    .blog3 .title a:hover {
+	    color: #5BBBA4;
+    }
+
+/* ==========================================================================
+   Blog1, Blog2, Blog3 Post 
+   ========================================================================== */
+
+.blog1.post,
+.blog3.post {
+    border-bottom: 1px solid #CFCFCF;	
+}
+
+/* ==========================================================================
+   Blog1, Blog2, Blog3, Single Type
+   ========================================================================== */
+
+.blog1 .type a,
+.blog2 .type a,
+.blog3 .type a,
+.single .type a {
+	color: #ACACAC;
+}  
+
+    .blog1 .type a:hover,
+    .blog2 .type a:hover,
+    .blog3 .type a:hover {
+	    color: #5BBBA4;
+    } 
+
+/* ==========================================================================
+   Blog2 Post Content 
+   ========================================================================== */
+
+.blog2 .large-5 {
+    background-color: #E8EDF2;
+    border-bottom: 1px solid #DADADA;
+    border-radius: 6px;
+     -webkit-border-start: 6px;
+      -moz-border-radius: 6px;
+	padding: 9px;
+	margin-right: 53px;
+}   
+
+/* ==========================================================================
+   Blog1, Blog2, Blog3, Single, Meta Post Meta 
+   ========================================================================== */
+
+.blog1.meta,
+.blog2.meta,
+.blog3.meta,
+.single.meta,
+.meta {
+	color: #ACACAC;
+    font-size: 12px;
+    font-style: italic;
+    left: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-align: left;
+    top: 0;
+}
+
+/* ==========================================================================
+   Blog1 Post Meta 
+   ========================================================================== */
+	
+.blog1.meta li {
+    background-color: #F9F9F9;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* ==========================================================================
+   Blog2 Post Meta 
+   ========================================================================== */
+
+.blog2.meta li {
+    display: inline;
+    padding-right: 50px;
+    list-style: none;
+    margin-bottom: 5px;
+}  
+
+/* ==========================================================================
+   Blog3 Post Meta, Single 
+   ========================================================================== */
+
+.blog3.meta li,
+.single.meta li {
+    background-color: #F9F9F9;
+    display: inline;
+    padding-right: 15px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+    .blog3.meta li:last-child,
+    .single.meta li:last-child {
+	    padding-right: 0;
+    } 
+
+/* ==========================================================================
+   Single Post 
+   ========================================================================== */
+
+.imagePost {
+	margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+}	    
+    
+/* ==========================================================================
+   Footer 
+   ========================================================================== */
+
+.footer {
+	background-color: #404041;
+	padding: 50px 0 50px 0;
+}
+	
+	.footer h1 {
+		text-align: center;
+	}
+		
+		.footer p {
+			color: white;
+		}
+
+            .footer .copyRight {
+	            text-align: right;
+            }
+            
+/* ==========================================================================
+   Sub Footer
+   ========================================================================== */
+
+.subFooter {
+	background-color: #383838;
+	border-top: 1px solid #4F4F4F;
+}
+
+    .subFooter #icons {
+	    text-align: center;
+    }
+
+
+/* Misc
+   ================================================== */
+
+/* ==========================================================================
+   Icons Social / Icons2 Social
+   ========================================================================== */
+
+#icons,
+.icons {
+	margin-bottom: 0;
+}
+
+	#icons a,
+	.icons {
+		color: white;
+	}
+		
+		#icons li,
+		.icons li {
+		    border-bottom-left-radius: 100px;
+		    border-bottom-right-radius: 100px;
+		    border-top-left-radius: 100px;
+		    border-top-right-radius: 100px;
+			display: inline-block;
+			padding: 5px 5px 0 5px;
+			list-style: none;
+			margin: 9px 9px 9px 0;
+			text-align: center;
+			height: 35px;
+		    width: 35px;
+		}
+			
+			#icons li:hover,
+			.icons li:hover {
+			    -webkit-transition:opacity .5s ease-out;
+				-moz-transition:opacity .5s ease-out;
+				-ms-transition:opacity .5s ease-out;
+				-o-transition:opacity .5s ease-out;
+				transition:opacity .5s ease-out;			    
+			}
+
+#icons li {
+	background-color: #7f8c8d;
+
+}
+.icons li {
+	background-color: #34495E;
+}
+
+			#icons li:hover {
+		       background-color: #95a5a6;
+			}
+			
+			.icons li:hover {
+            	background-color: #12395F;
+			}
+
+                #icons a i {
+	                color: #000;
+                }
+                
+                .icons a i {
+	                color: white;
+                }
+
+#icons2 .facebookicon- {
+	color: #18d;
+}
+
+#icons2 .twittericon- {
+	color: #0ae;
+}
+
+#icons2 .vimeoicon- {
+	color: #f7e;
+}
+
+#icons2 li {
+	background-color: #AFFFE9;
+    border-radius: 100px;
+     -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+	display: inline-block;
+	padding: 13px 5px 0 0;
+	list-style: none;
+	margin: 9px 41px 0 0;
+	text-align: center;
+	height: 120px;
+    width: 120px;
+    
+    transition: background .3s;
+}
+
+	#icons2 li:last-child {
+		margin-right: 0;
+	}
+
+		#icons2 li:hover {
+			 background-color: #333;
+			 -webkit-transition:opacity .5s ease-out;
+			 -moz-transition:opacity .5s ease-out;
+			 -ms-transition:opacity .5s ease-out;
+			 -o-transition:opacity .5s ease-out;
+			 transition:opacity .5s ease-out;			    
+		}
+		
+			#icons2 li a {
+			   font-size: 56px;
+			}
+
+.newPage {
+    background-color: #ff0000;
+    color: white;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   Background 
+   ========================================================================== */
+
+.background1 {
+    background-color: #F6F6F6;
+}
+
+.background2 {
+    background: url('../img/tex2res5.png') repeat center center #fafafa;
+}
+
+.background3 {
+	background-color: #5BBBA4;
+}
+
+.background4 {
+    background-color: #BFBFBF;
+}
+
+.background5 {
+    background-color: #bdc3c7;
+}
+
+.background6 {
+    background-color: #4d4d4d;
+}
+
+.background7 {
+    background-color: #34495e;
+}
+
+.background8 {
+    background-color: #16A085;
+}
+
+.background9 {
+    background-color: #f39c12;
+}
+
+.background10 {
+	background-color: white;
+}
+
+/* ==========================================================================
+   Border
+   ========================================================================== */
+
+.border {
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+
+/* ==========================================================================
+   Services / Services 3
+   ========================================================================== */
+
+.servicesI,
+.servicesI3 {
+    border-right: 1px solid #F0EEE8;
+	text-align: center;
+}
+
+    .servicesI:last-child,
+    .servicesI3:last-child {
+       border-right: none;
+    }
+
+		.servicesI p,
+		.servicesI3 p {
+		    text-align: center;
+			margin-top: 15px;
+		}
+						
+			.servicesI i {
+				display: block;
+				padding: 0 52px 0 52.5px;
+				font-size: 90px;
+				margin: 0 auto;
+			}
+		
+					.servicesI h3 {
+						font-size: 21px;
+						font-weight: normal;
+					    margin: 16px 0;
+					    text-transform: uppercase;
+					    text-align: center;
+					}
+				
+
+
+/* ==========================================================================
+   Services 2
+   ========================================================================== */
+
+.servicesI2 {
+  text-align: left; 
+}
+
+   .servicesI2 .iconRed,
+   .servicesI2 .iconGreen {
+	   border-radius: 50px;
+	    -moz-border-radius: 50px;
+	     -webkit-border-radius: 50px;
+	   
+	   color: white;  
+	   display: inline-block;
+	   font-size: 21px;
+	   line-height: 9px;
+	   position: relative;
+	   text-align: center;
+	   vertical-align: middle;
+	   padding: 15px 9px 9px 9px;
+	   height: 38px;
+	   width: 38px; 
+   }
+   
+       
+   .servicesI2 .iconRed {
+       background-color: #f6653c !important;
+   }
+   	       
+	   .servicesI2 .iconGreen {
+	       background-color: #5BBBA4 !important;
+	   }
+
+
+
+/* ==========================================================================
+   Services 3
+   ========================================================================== */
+
+.servicesI3 i {
+	display: block;
+	padding: 0 52px 0 52.5px;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+		.servicesI3 h3 {
+			font-size: 19px;
+			font-weight: normal;
+		    margin: 16px 0;
+		    text-transform: uppercase;
+		    text-align: center;
+		}
+    	 
+/* ==========================================================================
+   Figure 
+   ========================================================================== */
+
+figure {
+    background-color: white;
+	margin: 0;
+}
+	
+	figure.figure2 {
+	    background-color: transparent;
+		border: none;
+		margin: 0;
+	}
+		
+		figure.figure3 {
+		    background-color: white;
+			border: 1px solid #ccc;
+			margin: 0;
+		}
+	
+	        figure img {
+		        border-radius: 6px;
+		         -webkit-border-radius: 6px;
+		           -moz-border-radius: 6px;
+	         }
+         
+         
+/* ==========================================================================
+   Testimonial Figure 
+   ========================================================================== */
+
+.testimonialS {
+	background-color: transparent;
+	border: none;
+	font-style: italic;
+	font-size: 19px;
+	text-align: center;
+}
+
+    .testimonialS figcaption {
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 19px;
+    }
+  
+   
+/* ==========================================================================
+   Section 
+   ========================================================================== */
+
+.section-container2 p {
+	margin-bottom: 0; /* Remove Paragraph Margin Bottom */
+}
+
+
+/* ==========================================================================
+   Shadow 
+   ========================================================================== */
+
+.shadow {
+	-webkit-box-shadow: 0px 2px 2px rgba(54, 50, 50, 0.34);
+	 -moz-box-shadow:    0px 2px 2px rgba(54, 50, 50, 0.34);
+	  box-shadow:         0px 2px 2px rgba(54, 50, 50, 0.34);
+}
+
+    
+/* ==========================================================================
+   Caption 
+   ========================================================================== */
+
+.caption {
+    padding: 30px 0  30px 0;
+}
+
+	.caption h1 {
+	    font-size: 30px;
+		text-align: center;
+		font-weight: normal;
+	}
+	
+	    .caption p {
+		    font-size: 19px;
+		    font-style: italic;
+		    font-weight: normal;
+			text-transform: capitalize;
+			padding-top: 9px;
+	    }
+		    
+		    .captionLine {
+			    border-right: 1px solid #F0EEE8;
+			}
+	
+	           .captionBold h1,
+	           .captionBold h1 span {
+		           font-size: 50px;
+		           line-height: 50px;
+		       }
+           
+
+/* ==========================================================================
+   Call To Action 1 / Call To Action 2
+   ========================================================================== */
+
+.callToAction1,
+.callToAction2 {
+	padding: 50px 0 50px 0;
+	width: 100%;
+}
+
+    .callToAction1 h1,
+    .callToAction1 p,
+    .callToAction2 h1,
+    .callToAction2 p {
+        color: white;
+        text-align: center;
+    }
+    
+	    .callToAction1 h1,
+	    .callToAction2 h1 {
+	        font-size: 30px;
+	        font-weight: 400;
+	        padding-bottom: 15px;
+	    }
+	    
+	        .callToAction1 p,
+	        .callToAction2 p {
+	            padding-top: 15px;
+	        }
+
+                .callToAction1 .callImage,
+                .callToAction2 .callText  {
+	               padding-left: 16px;
+                }
+                
+                    .callToAction2 .callImage {
+	                    padding-right: 35px;
+                    }
+
+                        .callToAction1 .callFont,
+                        .callToAction2 .callFont {
+	                        color: white;
+                        }
+                        
+                        
+/* ==========================================================================
+   Portfolio Home 
+   ========================================================================== */
+
+.portfolioH h1 {
+    color: #87f1dc;
+    text-transform: uppercase;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+    .portfolioH p {
+	    font-size: 19px;
+	    font-style: italic;
+	    font-weight: normal;
+		text-transform: capitalize;
+		text-align: center;
+		line-height: 30px;
+		padding-top: 9px;
+    }
+    
+        .portfolioH p a {
+	        font-size: 15px;
+        }
+	    
+
+/* ==========================================================================
+   Portfolio Work Meta 
+   ========================================================================== */
+                
+.work-meta h5 {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+	line-height: 29px !important;
+	letter-spacing: -0.5px;
+}
+
+    .work-meta h5 span {
+        color: #999;
+        display: block;
+		font-size: 11px;
+		text-align: center;
+		margin-left: 0;
+}
+
+
+/* ==========================================================================
+   ListBoxDisplay
+   ========================================================================== */
+
+.listBoxDisplay figure {
+    border-radius: 6px;
+     -webkit-border-start: 6px;
+      -moz-border-radius: 6px;
+}
+
+    .listBoxDisplay figure a img {
+    	 border-top-right-radius:  6px;
+          -webkit-border-top-right-start: 6px;
+           -moz-border-top-right-radius: 6px;
+	     border-top-left-radius: 6px;
+          -webkit-border-top-left-start: 6px;
+           -moz-border-top-left-radius: 6px;
+
+    }
+    
+    
+/* ==========================================================================
+   Links 
+   ========================================================================== */
+
+.links li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+    .links li:last-child {
+        padding-right: 0;
+    }
+
+		.links,
+		.links li a {
+		    color: white;
+		    text-decoration: none;
+		}
+		
+		    .links2 {
+			   color: #000; 
+		    }       
+
+/* ==========================================================================
+   Grow
+   ========================================================================== */
+
+.pic {
+  height: 250px;
+  width: 355px;
+  overflow: hidden;
+}
+
+/*GROW*/
+.grow img {
+  height: 250px;
+  width: 355px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  height: 280px;
+  width: 400px;
+  opacity: 0.7;
+  filter:alpha(opacity=70); /* For IE8 and earlier */ 
+}
+
+
+/* ==========================================================================
+   Second Button
+   ========================================================================== */
+
+.secondB {
+	margin-left: 15px;
+} 
+
+  
+/* #Common Page Styles
+================================================== */
+
+/* ==========================================================================
+   Page 
+   ========================================================================== */
+
+.page {
+    background-color: white;
+	border-left: 1px solid rgba(139,137,137,0.78);
+	border-right: 1px solid rgba(139,137,137,0.78);
+}
+
+/* ==========================================================================
+   Page Title
+   ========================================================================== */
+
+.pageTitle {
+	color: #CFCFC;
+	font-size: 50px;
+	padding: 28px 0 15px 0;
+}
+
+.sectionBg {
+	background-color: #EFEFEF;
+}
+
+/* ==========================================================================
+   Promo
+   ========================================================================== */
+
+.promo {
+    background-color: #E8EDF2;
+    border-radius: 6px;
+    -webkit-border-start: 6px;
+    -moz-border-radius: 6px;
+    padding: 15px;
+}
+
+	.promo h2,
+	.promo p {
+	    font-weight: normal;
+	}
+	
+	    	.promo h2 {
+				font-size: 27px;
+		     }
+
+				 	.promo p {
+						font-size: 15px;
+				     }
+
+
+
+/* ==========================================================================
+   Icon Grey Color
+   ========================================================================== */
+
+.iconGrey li {
+    list-style: none;
+	color: #4B4C4D;
+}
+
+/* ==========================================================================
+   Icon Green Color 
+   ========================================================================== */
+
+.iconGreen li {
+	list-style: none;
+	color: #5BBBA4;	
+}
+
+/* ==========================================================================
+   Title
+   ========================================================================== */
+
+.title {
+	color: #4B4C4D;
+}
+    .title a {
+	    color: #4B4C4D;
+    }
+    
+        .title a:hover {
+	        color: #5BBBA4;
+        } 
+
+.title2,
+.title3 {
+	border-bottom: 2px dotted #DDDDDD;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	width: 19%;
+}       
+
+.title3,
+.title4 {
+	color: white;
+}
+
+.title5 {
+    color: white;
+	font-size: 35px;
+}
+
+.title6 {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.title7 {
+	font-size: 35px;
+}
+
+.title8 {
+	color:#c5c5c5;
+}
+
+/* ==========================================================================
+   Paragraph
+   ========================================================================== */
+
+.p {
+	color: white;
+}
+
+/* ==========================================================================
+   Header Contact 
+   ========================================================================== */
+
+#headerContact li {
+	display: inline-block;
+	color: white;
+	float: right;
+	padding-left: 15px;
+	list-style: none;
+	line-height: 50px;
+}
+
+/* ==========================================================================
+   Logo 
+   ========================================================================== */
+
+#logo {
+    color: #404041;
+	font-family: 'Sofia', cursive;
+	font-style: italic;
+	font-size: 50px;
+	margin-top: 30px;
+}
+
+/* ==========================================================================
+   Shape Background
+   ========================================================================== */
+	
+.outer_sphere {
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    width: 120px;
+}
+
+.fog {
+    box-shadow: 0 5px 5px rgba(124, 110, 100, 0.37);
+}
+
+	.fog2 {
+		-webkit-box-shadow: 0px -7px 5px rgba(124, 110, 100, 0.37);
+		-moz-box-shadow:    0px -7px 5px rgba(124, 110, 100, 0.37);
+		box-shadow:         0px -7px 5px rgba(124, 110, 100, 0.37);
+	}
+
+.half-circle-bottom {
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 60px;
+    position: relative;
+    top: -20px; 
+    width: 120px;
+    z-index: 2;
+}
+
+    .half-circle-top {
+	    border-bottom-radius: 0;
+	    border-bottom-right-radius: 0;
+	    border-top-left-radius: 90px;
+	    border-top-right-radius: 90px;
+	    height: 60px;
+	    position: relative;
+	    top: 11px;
+	    width: 120px;
+	    z-index: 2;
+    }
+
+.smoke-wall {
+    background-color: #333333;
+}
+
+.white-wall	{
+	background-color: #EFEFEF;
+}		
+
+/* ==========================================================================
+   Slideshow Style 1 
+   ========================================================================== */
+
+  .bannercontainer {
+		background-color:#fff;
+		width:960px;
+		position:relative;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+  .banner{
+		width:960px;
+		height:500px;
+		position:relative;
+		overflow:hidden;
+   }
+
+
+    .bannercontainer-simple {
+		padding:0px;
+		background-color:#fff;
+		width:960px;
+		position:relative;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+
+  .banner-simple{
+		width:960px;
+		height:500px;
+		position:relative;
+		overflow:hidden;
+   }
+
+ .fullwidthbanner-container{
+	width:100% !important;
+	position:relative;
+	padding:0;
+	max-height:500px !important;
+	overflow:hidden;
+}
+
+	.fullwidthbanner-container .fullwidthabnner	{
+		width:100% !important;
+		max-height:500px !important;
+		position:relative;
+	}
+
+/* ==========================================================================
+   Fade 
+   ========================================================================== */
+
+.fade {
+  -webkit-transition:opacity .5s ease-out;
+  -moz-transition:opacity .5s ease-out;
+  -ms-transition:opacity .5s ease-out;
+  -o-transition:opacity .5s ease-out;
+  transition:opacity .5s ease-out;
+  opacity:0.2;
+  filter:alpha(opacity=20); /* For IE8 and earlier */
+
+}
+	
+	.fade:hover {
+	  opacity:1;
+	  filter:alpha(opacity=10); /* For IE8 and earlier */
+	
+	}
+
+/* ==========================================================================
+   Image Hover 
+   ========================================================================== */
+
+	.hover img {
+		float: left;
+		margin: 5px;
+		overflow: hidden;
+		opacity: 1;
+		filter:alpha(opacity=10); /* For IE8 and earlier */
+
+	}
+	
+	    .hover img:hover {
+		    opacity:0.7;
+            filter:alpha(opacity=70); /* For IE8 and earlier */
+	    }
+			
+/* ==========================================================================
+   Partners 
+   ========================================================================== */
+
+.partners {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(../img/grayscale.svg#greyscale); /* Firefox 4+ */
+  filter: gray; /* IE 6-9 */
+}
+	
+/* ==========================================================================
+   IntroL 
+   ========================================================================== */
+
+.introL {
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+    animation-name: introL;
+    animation-timing-function: ease;
+}
+         
+/* ==========================================================================
+   Isotope Filtering 
+   ========================================================================== */
+
+.portfolioNav {
+	text-align: center;
+}
+
+    .portfolioNav ul li {
+        background-color: #2C3E50;
+        border-radius: 6px;
+         -webkit-border-radius: 6px;
+           -moz-border-radius: 6px;
+	    display: inline;
+    }
+    
+        .portfolioNav ul li a {
+            border-radius: 6px;
+             -webkit-border-radius: 6px;
+              -moz-border-radius: 6px;
+	        color: white;
+			text-decoration: none;
+			padding: 15px;
+        }
+
+        .portfolioNav ul li:first-child {
+	        color: white;
+	        background-color: #F6653C;
+			font-weight: bold;
+        }
+        
+.isotope-item {
+    z-index: 2;
+}
+
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}
+
+/* ==========================================================================
+   Isotope CSS3 transitions 
+   ========================================================================== */
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+	
+	.isotope {
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	      -ms-transition-property: height, width;
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	}
+	
+		.isotope .isotope-item {
+		  -webkit-transition-property: -webkit-transform, opacity;
+		     -moz-transition-property:    -moz-transform, opacity;
+		      -ms-transition-property:     -ms-transform, opacity;
+		       -o-transition-property:      -o-transform, opacity;
+		          transition-property:         transform, opacity;
+		}           
+
+/* ==========================================================================
+   Portfolio Overlay 
+   ========================================================================== */
+
+.portfolioOverlay {
+	padding-top: 28px;
+}
+
+	.portfolioOverlay h3,
+	.portfolioOverlay p {
+	    color: white;
+		text-align: center;
+	}
+	
+	    .portfolioOverlay p i {
+		    font-size: 19px;
+	    }
+
+/* ==========================================================================
+   Tagcloud 
+   ========================================================================== */
+
+.tagcloud li {
+    color: #5F5F5F;
+    display: block;
+    float: left;
+	list-style: none;
+	padding-right: 3px;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+	.tagcloud li a {
+		display: block;
+	    float: left;
+	    margin-right: 2px;
+	    margin-bottom: 2px;
+	    padding: 3px 6px;
+	    background-color: #EEE;
+	    font-size: 13px !important;
+	    color: #666;
+	    text-shadow: 1px 1px 1px #FFF;
+	    border-radius: 2px;
+	    -moz-border-radius: 2px;
+	    -webkit-border-radius: 2px;
+	}
+	
+	    .tagcloud li a:hover {
+		    color: #5BBBA4;
+	    } 
+
+/* ==========================================================================
+   Share This 
+   ========================================================================== */
+
+.shareThis {
+	position: relative;
+	margin: 20px 0;
+	padding: 10px 0;
+	line-height: 24px;
+}
+
+    .shareThis span {
+        color: #5F5F5F;
+	    display: block;
+	    float: left;
+	    margin-right: 15px;
+    }
+
+      .shareThis ul li {
+            border-radius: 100px;
+            -moz-border-radius: 100px;
+            color: #404041;
+	        display: inline-block;
+		    list-style-image: none;
+		    list-style-position: outside;
+		    list-style-type: none;
+		    padding: 2px;
+		    width: 30px;
+            height: 30px;
+       }
+           
+       	    .shareThis ul li:hover {
+	            background-color: #CFCFCF;
+            } 
+
+		        .shareThis ul li a {
+			        display: block;
+				    float: left;
+				    width: 24px;
+				    height: 24px;
+				    margin-left: 15px;
+		        }
+
+/* ==========================================================================
+   Related Posts 
+   ========================================================================== */
+
+.relatedPosts .item {
+    border-top: 3px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    padding: 28px 0 19px 0;  
+
+    float: left;
+    margin-bottom: 13px;
+    margin-right: 13px;
+    width: 199px;
+}
+ 
+    .relatedPost .item	img {
+	    margin-bottom: 10px;
+	    height: 128px;
+	    width: 200px;
+    } 
+      
+        .relatedPost .item	img:hover  {
+	        opacity: 0.7;
+	        filter:alpha(opacity=70); /* For IE8 and earlier */
+        }             
+
+/* ==========================================================================
+   Comments, Comments Box 
+   ========================================================================== */
+
+.comments .commentBox {
+    margin-bottom: 20px;
+}
+
+	.comments .commentBox  .avatar {
+	    float: left;
+	    margin-top: 5px;
+	}
+		
+		.comments .commentBox  .avatar img {
+		    border-bottom-left-radius: 50%;
+		    border-bottom-right-radius: 50%;
+		    border-top-left-radius: 50%;
+		    border-top-right-radius: 50%;
+		    height: 60px;
+		    width: 60px;
+		}
+			
+			html.ie.ie8 .comments .commentBox  .avatar img {
+			    width: inherit;
+			}
+				
+				.comments .commentBox  .comment {
+				    border-bottom: 1px solid #CFCFCF;
+				    margin-left: 80px;
+				    padding-bottom: 20px;
+				}
+				
+					.comments .commentBox  .comment h5 {
+						    margin-bottom: 5px;
+						}
+							
+							.comments .commentBox  .comment h5 a {
+						        color: #5F5F5F;
+							    margin-bottom: 5px;
+							}
+	
+								.comments .commentBox  .comment .date-reply {
+								    margin-bottom: 17px;
+								}
+									
+									.comments .commentBox  .children {
+									    margin-left: 80px;
+									    margin-top: 20px;
+									}
+										
+										.comments .commentBox .author {
+										    padding-bottom: 10px;
+										    padding-left: 10px;
+										    padding-right: 10px;
+										    padding-top: 15px;
+										}
+											
+											.comments .commentBox .author .comment {
+											    border-bottom-color: -moz-use-text-color;
+											    border-bottom-style: none;
+											    border-bottom-width: 0;
+											    padding-bottom: 10px;
+											}
+
+
+/* ==========================================================================
+   Comments Box 
+   ========================================================================== */
+
+.commentsBox ul li {
+    list-style: none;
+}
+
+/* ==========================================================================
+   Comment Box 
+   ========================================================================== */
+
+.commentBox {
+    border-radius: 6px;
+     -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+}
+
+/* ==========================================================================
+   Form Box 
+   ========================================================================== */
+
+.formBox,
+.formBoxSignUp {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 18px;
+    margin-top: 0;
+    width: 200px;
+}
+	 
+	.formBox.last {
+	    margin-right: 0;
+	}
+		
+		.formBox.big {
+		    width: 100%;
+		}
+			
+			.formBox label {
+			    display: block;
+			    margin-bottom: 8px;
+			    padding-bottom: 5px;
+			    padding-left: 0;
+			    padding-right: 0;
+			    padding-top: 5px;
+			} 
+				
+				.formBox small {
+					color: #E7402F;
+					font-size: 19px;
+				}
+				
+				    .formBox input,
+				    .formBox textarea {
+				        background-color: #F7F7F7;
+					}
+
+						.formBox input.text {
+					        border-radius: 6px;
+		                     -webkit-border-radius: 6px;
+		                       -moz-border-radius: 6px;
+		                       
+						    color: #34495E;
+							padding:12px 10px;
+							width:89%;
+							display:block;
+						}
+							
+							.formBox textarea {
+		    			        border-radius: 6px;
+		                         -webkit-border-radius: 6px;
+		                           -moz-border-radius: 6px;
+		
+								width:96.6%;
+								padding:12px 10px;
+								min-height:180px;
+								display:block;
+							}
+
+
+/* ==========================================================================
+   Form Box Sign Up
+   ========================================================================== */
+
+.formBoxSignUp {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 18px;
+    margin-top: 0;
+    width: 100%;
+}
+	 
+    .formBoxPassword {
+        float: left;
+	    width: 47%;
+	    margin: 0 28px 15px 0;
+    }
+    
+		.formBoxPassword.last {
+		    margin-right: 0;
+		}
+
+				.formBoxSignUp input.text,
+				.formBoxPassword input.text {
+			        border-radius: 6px;
+                     -webkit-border-radius: 6px;
+                       -moz-border-radius: 6px;
+                       
+				    color: #34495E;
+					padding:12px 10px;
+					width: 100%;
+					display:block;
+				}
+				
+				    #submit {
+				        margin-left: 0;
+					    width: 100%;
+				    }
+
+            
+/* ==========================================================================
+   Pagination 
+   ========================================================================== */
+
+.pagination .hidden {
+   float: right;
+}
+
+   .pagination .more.nav-prev:before {
+         font-family: 'FontAwesome';
+         content: "\f177";
+   }
+         .pagination .hidden:after {
+               font-family: 'FontAwesome';
+               content: "\f178";
+         }
+
+
+/* ==========================================================================
+   Widgets: Catgories/Archives/Most Popular 
+   ========================================================================== */
+
+.categories a,
+.archives a,
+.mostPopular a,
+.mostPopular a h4 {
+	color: #CFCFCF;
+	padding-left: 15px;
+}
+
+    .categories a:hover,
+    .archives a:hover,
+    .mostPopular a:hover,
+    .mostPopular a h4:hover {
+	    color: #5BBBA4;   
+    }
+
+
+	    .categories li,
+	    .archives li,
+	    .mostPopular li {
+		    list-style: none;
+		    border-bottom: 1px dotted #CFCFCF;
+		    padding: 5px 0 9px 0;
+	    }
+	    
+	        .categories li:hover,
+	        .archives li:hover,
+	        .mostPopular li:hover {
+		       border-bottom:  1px dotted #5BBBA4;
+	        }
+
+.mostPopular a h4 {
+	padding: 9px 0 0 0;
+}
+
+/* ==========================================================================
+   Recent Project
+   ========================================================================== */
+
+.recent {
+	background-color: #EFEFEF;
+    border-radius: 6px;
+     -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+}
+ 
+/* ==========================================================================
+   Latest News Home Page 
+   ========================================================================== */
+
+.lastestNewsH {
+    margin: 45px 0 15px 0;
+}
+
+    .lastestNewsH:last-child {
+	    border-bottom: none;
+	    margin-bottom: 0;
+    } 
+
+.lastestNewsH h1 {
+    color: #FFCD7F;
+	text-align: center;
+    text-transform: uppercase;
+}
+
+.lastestNewsH-post {
+	background-color: white;
+	border-radius: 6px;
+     -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+    padding: 15px;
+}
+
+	.lastestNewsH-post .post-meta .date {	
+		border-radius: 50px;
+		    -moz-border-radius: 50px;
+		     -webkit-border-radius: 50px;
+		   
+		   color: white;  
+		   line-height: 15px;
+		   position: absolute;
+		   text-align: center;
+           left: 143px;
+           top: -28px;
+           vertical-align: middle;
+		   padding: 9px;
+	       height: 50px;
+	       width: 50px;
+	 }
+	
+		.lastestNewsH .post-meta .title {
+			font-size: 18px;
+			font-weight: bold;
+            padding-top: 30px;
+            margin-bottom: 19px;
+		}
+		
+		    .lastestNewsH .post-meta .title a {
+			    border-bottom: 1px dotted #404041;
+		    }
+
+.lastestNewsH .type {
+	font-size: 13px;
+}
+
+	.lastestNewsH .content {
+		font-size: 15px;
+	}
+
+
+/* ==========================================================================
+   Latest News 
+   ========================================================================== */
+
+.latestNews .background {
+    background-color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #474747;
+    font-size: 19px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 24px;
+    position: relative;
+}
+
+    .latestNews .background:hover {
+	    opacity: 0.7;
+	    filter: alpha(opacity=70) /* For IE8 and earlier */
+    }
+    
+	    .latestNews .background i {
+		    background-color: #474747;
+		    border-radius: 90px;
+	         -webkit-border-radius: 90px;
+	          -moz-border-radius: 90px;
+	        color: white;
+	        padding: 15px 9px 9px 9px;
+	        position: absolute;
+	        text-align: center;
+	        top: -27px;
+	        right: 81px;
+	        height: 50px;
+	        width: 50px;
+	    }
+	    
+	        .latestNews .background h1,
+	        .latestNews .background p {
+		            color: #474747;
+		            text-align: center;
+	        }
+	        
+	            .latestNews .background h1 {
+		            font-size: 15px;
+		            font-weight: normal;
+		            padding-bottom:15px;
+	            }
+	            
+	                .latestNews .background p {
+	                    font-weight:bold;
+	                    text-transform: uppercase ;
+	                    padding-top: 15px;
+	                }
+
+                        .latestNews .background figure {
+	                        margin-top: 15px;
+                        }
+                        
+.latestNews1 img:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.latestNews1 .article {
+	text-transform: capitalize;
+}
+
+	.latestNews1 .article:hover {
+	    color: #5BBBA4;
+	}
+	
+		.latestNews1 .meta {
+			background-color: #EFEFEF;
+			color: #929292;
+			padding: 0 9px 0 9px;
+		}
+
+.latestNews2 {
+	padding: 5px;
+}
+	
+	.latestNews2 img {
+		float: left;
+		margin: 5px;
+		overflow: hidden;
+		opacity: 1;
+		filter:alpha(opacity=10); /* For IE8 and earlier */
+	}
+	
+	    .latestNews2 img:hover {
+		    opacity:0.7;
+            filter:alpha(opacity=70); /* For IE8 and earlier */
+	    }
+			
+			.latestNews2 p {
+				overflow: hidden;
+			    height: 50px;
+			}
+				
+				.latestNews2 small {
+					background-color: #F6F6F6;
+					text-align: center;
+					margin: 0 0 5px 0;
+					padding: 5px;
+				}
+
+/* ==========================================================================
+   Twitter
+   ========================================================================== */
+
+.tweet ul li {
+	list-style: none;
+}
+
+/* ==========================================================================
+   Tweeter Feeds 
+   ========================================================================== */
+
+.tweet h1 {
+	color: #BFBFBF;
+}
+	 
+/* ==========================================================================
+   Search Form 
+   ========================================================================== */
+
+.leftSideBar .search form {
+    position: relative;
+}
+
+.widget .submit-search {
+    background-image: url("../icons/icons/16x16/row 1/6.png");
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: none;
+    cursor: pointer;
+    height: 18px;
+    position: absolute;
+    right: 28px;
+    top: 57px;
+    width: 18px;
+    opacity: 0.5;
+    filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+	
+	.widget .text-search {
+		background-color: #F9F9F9;
+        border-radius: 6px;
+         -webkit-border-radius: 6px;
+           -moz-border-radius: 6px;
+	    padding: 13px 36px 13px 13px;
+	    height: 45px;
+	}
+
+/* ========================================================================== 
+  iFrame 
+  ========================================================================== */
+
+iframe {
+    border: 0;
+    height: 300px;
+	width: 100%;
+}
+
+
+/* ==========================================================================
+   Back To Top
+   ========================================================================== */
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+	
+	.go-top:hover {
+		background-color: rgba(0, 0, 0, 0.6);
+		color: white;
+	}
+
+
+              
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+		/******** Icons ********/
+		
+		#icons,
+		#icons2 {
+		    text-align: center;
+		}
+		
+		/******** Header Contact *********/
+
+        #headerContact {
+	        text-align: center;
+        }
+	        
+			#headerContact li {
+				float: none;
+			}
+		
+		/********* Logo *********/
+		
+		#logo {
+			text-align: center;
+		}
+		
+		/********* Home Preview *********/
+		
+		.homePreview h1 {
+			text-align: center;
+		}
+		
+		/********* Related Posts *********/
+
+		.relatedPost .item {
+		    float: none;
+		    margin-bottom: 13px;
+		    margin-right: 13px;
+		    width: 100%;
+		}
+		
+		    .relatedPost .item	img {
+			    margin-bottom: 10px;
+			    height: 100%;
+			    width: 100%;
+		    } 
+    
+        /********* Title *******/
+        
+        .title5 {
+	        line-height: 100%;
+        }
+       
+	   /********* Latest News *********/
+	   		
+	   .latestNews .background {
+	        margin-bottom: 50px !important;
+		}
+	
+		    .latestNews .background i {
+		        right: auto !important;
+		    }
+
+       /********* Latest News Home Page *********/
+	   		
+	   .post-meta .title,
+	   .post-meta .type {
+	        text-align: center;				
+	   }
+	   
+	   .lastestNewsH-post .post-meta .date {
+	       margin: 0 auto;	
+	       position: inherit;
+	   }
+
+        /******** Services *********/
+        
+        .servicesI2 .iconRed,
+        .servicesI2 .iconGreen {
+            display: table;
+            margin: 0 auto;
+        }
+
+            .servicesI2 h3,
+            .servicesI2 p {
+                text-align: center;
+            }
+        
+       /********* Promo *********/
+
+		.promo,
+		.promo h2,
+		.promo p {
+		     text-align: center;
+		}
+		 
+		/********* Call To Action **********/
+					
+        .callToAction1 h1,
+	    .callToAction2 h1 {
+	        line-height: 45px;
+	    }
+
+		    .callToAction1 h1,
+		    .callToAction1 p,
+		    .callToAction2 h1,
+		    .callToAction2 p {
+		        letter-spacing: 1px;
+		    }
+
+                .callToAction1 a,
+                .callToAction2 a {
+                    text-align: center;
+                }
+                
+       /********* Portfolio Home Page *********/
+       	
+       	.portfolioH h1 {
+       	    line-height: inherit; 
+		}
+
+       /********* Scroller *********/
+       
+       .als-container {
+          position: relative;
+          width: 33.33333%;
+          height: auto;
+       }
+       
+       /********* Team Home Page *********/
+		
+		.team figcaption #icons {
+		    text-align: justify;
+		}
+		
+		.teamH .figure2,
+		.teamH figcaption h3,
+		.teamH figcaption h3 span,
+		.teamH figcaption #icons {
+			text-align: center;
+		}
+		
+		    
+		/********* Form Box *********/
+		
+		.formBox {
+		    width: 100%;
+		}
+		
+		/******** Form Box Sign Up *********/
+		
+		.formBoxSignUp,
+		.formBoxPassword,
+		.formBoxSignUp input.text,
+		.formBoxPassword input.text {
+		    width: 100%;
+		}
+	 
+		/********* iFrame *********/
+		
+		iframe {
+            height: 100%;
+            width: 100%;
+        }
+
+		/********* HR *********/ 
+
+		hr,
+		.hr2,       
+		.hrAlt {
+			width: 100%;
+	    }			
+		
+		/********* Footer *********/
+		
+		.footer,
+		.footer .copyRight {
+			text-align: center;
+		}
+		
+		/********* Sub Footer *********/
+		
+		.subFooter #icons {
+            text-align: center;
+		}
+
+        /********* Second Button **********/
+        
+		.secondB {
+			margin-left: 0;
+		} 
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		 		  .banner, .bannercontainer			{	width:760px; height:396px;}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		  /********* Navigation *********/
+
+          nav.primary {
+	          float: none;
+	          width: 100%;
+          }
+          
+          nav.primary select {
+                background-color: #000;
+                color: white;
+                display: block;
+          }
+	          
+	          nav.primary ul {
+	                display: none;
+	          }
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.banner, .bannercontainer		{	width:480px; height:250px;	}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		.banner, .bannercontainer		{	width:320px;height:167px;	}
+
+	}
+

@@ -1,0 +1,73 @@
+ /*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slide,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slide > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slide before the JS is loaded. Avoids image jumping */
+.flexslider .slide img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slide element */
+.slide:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slide {display: block;}
+* html .slide {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slide > li:first-child {display: block;}
+
+/*my own flexslider*/
+.flexslider {
+  margin: 21px 0;
+}
+
+/*make nav centered*/
+.flex-control-nav {
+  width: 100%;
+  text-align: center; 
+}
+/*make nav centered*/
+
+.flex-control-nav li {
+  display: inline;
+  margin: 0 5px;
+} 
+
+.flex-control-nav li a {
+  display: inline-block; 
+  width: 14px;
+  height: 14px;
+  background: #d5d5d5;
+  border: 1px solid #d5d5d5;
+
+  cursor: pointer;
+
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+
+  /*add border radius here if needed*/
+}
+
+.flex-control-nav li a.active,
+.flex-control-nav li a:hover {
+   background: #f1f1f1;
+
+} 

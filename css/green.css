@@ -1,0 +1,513 @@
+/*-----------------------------------------------------------------------------
+
+version:   	1.0
+date:      	07/18/12
+author:		ThemeYourWeb
+email:      krittiyaclark@gmail.com
+twitter:    @themyourweb
+
+-----------------------------------------------------------------------------*/
+
+/* Theme Color Setting #5BBBA4
+================================================== */
+
+
+/* ==========================================================================
+   Font Color 
+   ========================================================================== */
+
+.captionBold h1 span, .fontColor, .servicesI i, .footer h1, .breadcrumbs1 > * a, .breadcrumbs1 > * span, .section-container.tabs > section.active > .title a, .section-container.tabs > .section.active > .title a, .section-container.vertical-tabs section.active > .title a,
+.section-container.vertical-tabs .section.active > .title a, .section-container2.vertical-tabs section.active > .title a, .section-container2.vertical-tabs .section.active > .title a, .section-container > section.active > .title a, .section-container > .section.active > .title a, .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a, .section-container > section > .title a:hover, .section-container > .section > .title a:hover, .section-container.auto > section > .title a:hover, .section-container.auto > .section > .title a:hover, .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a,
+section-container2.vertical-tabs section.active > .title a,
+.section-container2.vertical-tabs .section.active > .title a, .section-container2 > section.active > .title a, .section-container2 > .section.active > .title a, .section-container2.auto > section.active > .title a, .section-container2.auto > .section.active > .title a, .section-container2 > section > .title a:hover, .section-container2 > .section > .title a:hover, .section-container2.auto > section > .title a:hover, .section-container2.auto > .section > .title a:hover, .section-container2.auto > section.active > .title a, .section-container2.auto > .section.active > .title a { color: #5BBBA4; }
+
+/* ==========================================================================
+   All Hover
+   ========================================================================== */
+
+.links li a:hover { color: #5BBBA4;  }
+
+/* ==========================================================================
+   Link Styles
+   ========================================================================== */
+
+a {
+  color: #5BBBA4;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #5F5F5F; }
+  a img {
+    border: none; }
+
+/* ==========================================================================
+   Backgroud Color
+   ========================================================================== */
+
+.lastestNewsH-post .post-meta .date, .label, button, .button, .overlayer .overlay, .progress.success .meter, .team .teamInfo, .promoBox .promoIcon, .pricing-table .title.color, .pricing-table .title span.pop, .shareThis ul li { background-color: #5BBBA4; }
+
+/* ==========================================================================
+   Border Color
+   ========================================================================== */
+
+.section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a,
+.section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover { border-top: 2px solid #5BBBA4; }
+
+nav.primary ul li a.active,
+nav.primary ul ul a:hover { background-color: #5BBBA4; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; color: white; }
+nav.primary ul ul li { border-bottom: 1px solid #5BBBA4; }
+.section-container.vertical-tabs section.active > .title a, 
+.section-container.vertical-tabs .section.active > .title a, 
+.section-container.vertical-tabs section > .title:hover,
+.section-container.vertical-tabs .section > .title:hover, 
+.section-container2.vertical-tabs section.active > .title a, 
+.section-container2.vertical-tabs .section.active > .title a, 
+.section-container2.vertical-tabs section > .title:hover, 
+.section-container2.vertical-tabs .section > .title:hover  { border-left: 2px solid #5BBBA4; }
+	
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+.navigation {
+  height: 55px;
+  margin-top: 24px;
+}
+
+	nav.primary ul,
+	nav.primary ul li {
+	    margin: 0px;
+	}
+	
+		nav.primary select {
+		    display: none;
+		    width: 100%;
+		    height: 28px;
+		    margin: 21px 0;
+		}
+		
+			nav.primary ul li {
+			    display: inline;
+			    font-size: 13px;
+			    float: left;
+			    position: relative;
+			}
+			
+				nav.primary ul li a {
+				    display: inline-block;
+				    line-height: 49px;
+				    padding: 0 14px;
+				    color: #404041;
+				    text-transform: uppercase;
+				    text-decoration: none;
+				    font-weight: bold;
+				    letter-spacing:  0.08em;
+				} 
+				
+					nav.primary ul li a.active {
+					    color: white;
+					}
+						    
+						nav.primary ul li a:hover,
+						nav.primary ul li:hover > a  {
+						    background-color: #34495E;
+						    border-radius: 6px; 
+						     -webkit-border-radius: 6px; 
+						      -moz-border-radius: 6px;
+						    cursor: pointer;
+						    color: #404041;
+						}
+
+/* ==========================================================================
+  Sub Menu
+  ========================================================================== */
+
+nav.primary ul ul {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    
+    position: absolute;
+    z-index: 999;
+        border-radius: 6px; 
+     -webkit-border-radius: 6px; 
+      -moz-border-radius: 6px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+    background-color: #34495E;
+    
+    height: 0px;
+    overflow: hidden;
+    
+    min-width: 100%;
+    
+    -webkit-transition: opacity 0.4s ease-out;
+    -moz-transition:  opacity 0.4s ease-out;
+    -o-transition:  opacity 0.4s ease-out;
+    -ms-transition:  opacity 0.4s ease-out;
+    transition:  opacity 0.4s ease-out;
+    
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); /* Box Shadow for Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); /* Box Shadow for Firefox 3.5 - 3.6 */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); /* Box Shadow for Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+	nav.primary ul li span {
+	    display: none;
+	}
+		nav.primary ul li:hover ul {
+		    opacity: 10;
+		    filter: alpha(opacity=100);
+		    height: auto;
+		    overflow: auto;
+		}
+		
+			nav.primary ul ul li {
+			    float: none;
+			    display: list-item;
+			    text-transform: none;
+			    border-bottom: 1px solid #5BBBA4; 
+			}
+
+				nav.primary ul ul li:last-child {
+					border-bottom: none;
+				}
+
+					nav.primary ul ul li a {
+					    color: #e0e0e0;
+					    display: block;  
+					    line-height: 35px;
+					    text-transform: none;
+					    width: 170px;
+					} 
+					
+						nav.primary ul li:hover > a {
+						    color: white;
+						} 
+					
+
+/* ==========================================================================
+   Revolution Slider TP BANNER TIMER
+   ========================================================================== */
+   
+.tp-bannertimer	{	
+    width:100%; 
+    height:5px; 
+    background-color:#5BBBA4; /* background:url(../assets/timer.png); */
+    position:absolute; 
+    z-index:200;
+}
+
+
+/* ==========================================================================
+   Home Preview
+   ========================================================================== */
+
+.homePreview h1 {
+    border-bottom: 1px solid #EDEDED;
+	padding-bottom: 15px;
+}
+
+    .homePreview h1 span {
+        border-bottom: 1px solid #5BBBA4 !important;
+        padding-bottom: 15px;
+    }
+
+
+/* ==========================================================================
+   Services
+   ========================================================================== */
+
+.servicesI a {
+    border-bottom: 1px dotted #5BBBA4;
+    color: #5BBBA4;
+    text-decoration: none;
+    transition-delay: 0s;
+    transition-duration: 0.1s;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+
+    .servicesI a:hover {
+        color: #5F5F5F;
+    }
+
+        .servicesI:hover {
+	           background-color: #EFEFEF;
+               border-bottom: 2px solid #5BBBA4;
+        }
+
+
+
+/* ==========================================================================
+   Services 4
+   ========================================================================== */
+
+.servicesI4,
+.servicesI4 h3 {
+	text-align: center;
+}
+
+        .servicesI4 h3 {
+            font-size: 17px;
+	        padding: 30px 0 30px 0;
+	        text-transform: uppercase;
+        }
+
+        .servicesI4 .servicesI4Box {
+            background-color: #E8EDF2;
+            border-bottom: 1px solid #DADADA;
+            border-radius: 6px;
+             -webkit-border-start: 6px;
+              -moz-border-radius: 6px;
+	        padding: 15px 15px 50px 15px;
+        }
+        
+        .servicesI4 .servicesI4Box i {
+            color: #5BBBA4;
+            display: block;
+            font-size: 50px;
+        }
+ 
+         .servicesI4 .first i,
+         .servicesI4 .first h3 {
+	         color: #f6653c;
+	     }
+	      
+	     .servicesI4 .servicesI4Box a {
+		     z-index: 99999;
+		     position: absolute;
+		     top: 345px;
+		     right: 50px;
+		 }
+    	 
+.servicesI4 img.big-illustration {
+    border-radius: 600px;
+     -webkit-border-start: 600px;
+      -moz-border-radius: 600px;
+    height: 111px;
+    width: 112px;
+}
+
+
+/* ==========================================================================
+   Call To Action 1 / Call To Action 2
+   ========================================================================== */
+         
+    .callIcon1 .iconBig2,
+    .callIcon2 .iconBig2 {
+         background-color: #5BBBA4;
+    }
+
+.callIcon1 .iconBig1,
+.callIcon2 .iconBig1,
+.callIcon1 .iconBig2,
+.callIcon2 .iconBig2 {
+	font-size: 90px;
+	border-radius: 100px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 13px 5px 0 0;
+	list-style: none;
+	margin: 0 9px 41px 0 0;
+	text-align: center;
+	height: 120px;
+    width: 120px;
+    
+    transition: background .3s;
+}
+
+    .callIcon1,
+    .callIcon2 {
+        float: left;
+	    width: 50%;
+    }
+	
+	    .callIcon1 {
+	        padding-left: 350px;
+	    }
+	    
+	        .callIcon2 {
+	        padding-left: 30px;
+	    }
+	
+			    .callIcon1 .iconBig1 i,
+				.callIcon2 .iconBig1 i,
+				.callIcon1 .iconBig2 i,
+				.callIcon2 .iconBig2 i {
+					color: #FFFFFF;
+				}
+			
+			        	.callIcon1 p {
+							color: #F6653C !important;  
+							font-size: 15px;
+							text-align: justify;
+							 padding-left: 15px;
+						}
+						
+						        .callIcon2 p {
+									color: #5BBBA4 !important;
+									font-size: 15px;
+									text-align: left;
+									 padding-left: 7px;
+								}
+    
+    .callIcon1 .iconBig1,
+    .callIcon2 .iconBig1 {
+         background-color: #F6653C; 
+         margin: 0 auto; 
+    }
+    
+	    .callIcon1 .iconBig1:hover,
+	    .callIcon2 .iconBig1:hover,
+	    .callIcon1 .iconBig2:hover,
+	    .callIcon2 .iconBig2:hover {
+		      opacity: 0.7;
+              filter:alpha(opacity=70); /* For IE8 and earlier */ 
+		      -webkit-transition:opacity .5s ease-out;
+			  -moz-transition:opacity .5s ease-out;
+			  -ms-transition:opacity .5s ease-out;
+			  -o-transition:opacity .5s ease-out;
+			  transition:opacity .5s ease-out;			    
+	    }
+
+
+/* ==========================================================================
+   Shape Background
+   ========================================================================== */
+
+.color-wall {
+   background-color: #5BBBA4;
+}
+
+
+/* ==========================================================================
+   Email
+   ========================================================================== */
+
+#submit {
+	margin: 0 0 0 5px;
+}
+
+#result {
+	display: none;
+	height: 100%;
+	padding: 10px; 
+	margin-top: 15px; 
+	margin-left: 5px; 
+	max-width: 70%; 
+	border: 1px solid #cdcdcd; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    background-color: #5BBBA4;
+    color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	
+}
+	
+	#result p {
+		padding: 10px;
+		font-size: 120%;
+		color: #fff;
+	}
+
+/* ==========================================================================
+   NewsLetter
+   ========================================================================== */
+
+#news-result {
+	display: none;
+	height: 100%;
+	padding: 10px; 
+	margin-top: 15px; 
+	margin-left: 5px; 
+	max-width: 100%; 
+	border: 1px solid #cdcdcd; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #5BBBA4;
+    color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	
+}
+	
+	#news-result  p {
+		padding: 10px;
+		font-size: 120%;
+        color: white;
+	}  
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+		/********* Header Background *********/
+
+		.headerBg {
+			height: auto;
+		}
+		
+		/********* Navigation *********/
+
+          nav.primary {
+	          float: none;
+	          width: 100%;
+          }
+          
+          nav.primary select {
+                background-color: #000;
+                color: white;
+                display: block;
+          }
+	          
+	          nav.primary ul {
+	                display: none;
+	          }
+
+       		
+		/********* Services 4 *********/
+
+	     .servicesI4 .servicesI4Box a {
+		     position: relative;
+		     top: 0;
+		     right:	0;	 
+		 }
+		 
+         /********* Call To Action 1 / Call To Action 2 *********/
+
+	    .callIcon1,
+	    .callIcon2 {
+	        float: none;
+		    width: 100%;
+	    }
+	
+		    .callIcon1,
+		    .callIcon2,
+		    .callIcon1 p,
+		    .callIcon2 p  {
+		        text-align: center;
+		        padding-left: 0;
+		    }
+	    
+			    .callIcon1 .iconBig1 i,
+				.callIcon2 .iconBig1 i,
+				.callIcon1 .iconBig2 i,
+				.callIcon2 .iconBig2 i {
+				    position: inherit;
+				    text-align: center;
+				}
+		
+			         .callIcon1 .iconsBig2 p,
+					 .callIcon2 .iconsBig2 p {
+						 text-align: center;
+					 }
+
+    }
+         
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+
+	}

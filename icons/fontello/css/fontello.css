@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?164364');
+  src: url('../font/fontello.eot?164364#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?164364') format('woff'),
+       url('../font/fontello.ttf?164364') format('truetype'),
+       url('../font/fontello.svg?164364#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?164364#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class$="icon-"]:before, [class*="icon- "]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.duckduckgoicon-:before { content: '\e801'; } /* '' */
+.aimicon-:before { content: '\e803'; } /* '' */
+.deliciousicon-:before { content: '\e804'; } /* '' */
+.paypalicon-:before { content: '\e805'; } /* '' */
+.flattricon-:before { content: '\e806'; } /* '' */
+.androidicon-:before { content: '\e807'; } /* '' */
+.eventfulicon-:before { content: '\e808'; } /* '' */
+.smashmagicon-:before { content: '\e809'; } /* '' */
+.gplusicon-:before { content: '\e80a'; } /* '' */
+.wikipediaicon-:before { content: '\e80b'; } /* '' */
+.lanyrdicon-:before { content: '\e80c'; } /* '' */
+.calendaricon-:before { content: '\e80d'; } /* '' */
+.stumbleuponicon-:before { content: '\e80e'; } /* '' */
+.fivehundredpxicon-:before { content: '\e80f'; } /* '' */
+.pinteresticon-:before { content: '\e810'; } /* '' */
+.bitcoinicon-:before { content: '\e811'; } /* '' */
+.w3cicon-:before { content: '\e812'; } /* '' */
+.foursquareicon-:before { content: '\e813'; } /* '' */
+.html5icon-:before { content: '\e814'; } /* '' */
+.ieicon-:before { content: '\e815'; } /* '' */
+.callicon-:before { content: '\e816'; } /* '' */
+.groovesharkicon-:before { content: '\e817'; } /* '' */
+.ninetyninedesignsicon-:before { content: '\e818'; } /* '' */
+.forrsticon-:before { content: '\e819'; } /* '' */
+.diggicon-:before { content: '\e81a'; } /* '' */
+.spotifyicon-:before { content: '\e81b'; } /* '' */
+.redditicon-:before { content: '\e81c'; } /* '' */
+.guesticon-:before { content: '\e81d'; } /* '' */
+.gowallaicon-:before { content: '\e81e'; } /* '' */
+.appstoreicon-:before { content: '\e81f'; } /* '' */
+.bloggericon-:before { content: '\e820'; } /* '' */
+.ccicon-:before { content: '\e821'; } /* '' */
+.dribbbleicon-:before { content: '\e822'; } /* '' */
+.evernoteicon-:before { content: '\e823'; } /* '' */
+.flickricon-:before { content: '\e824'; } /* '' */
+.googleicon-:before { content: '\e825'; } /* '' */
+.viadeoicon-:before { content: '\e826'; } /* '' */
+.instapapericon-:before { content: '\e827'; } /* '' */
+.weiboicon-:before { content: '\e828'; } /* '' */
+.klouticon-:before { content: '\e829'; } /* '' */
+.linkedinicon-:before { content: '\e82a'; } /* '' */
+.meetupicon-:before { content: '\e82b'; } /* '' */
+.vkicon-:before { content: '\e82c'; } /* '' */
+.plancasticon-:before { content: '\e82d'; } /* '' */
+.disqusicon-:before { content: '\e82e'; } /* '' */
+.rssicon-:before { content: '\e82f'; } /* '' */
+.skypeicon-:before { content: '\e830'; } /* '' */
+.twittericon-:before { content: '\e831'; } /* '' */
+.youtubeicon-:before { content: '\e832'; } /* '' */
+.vimeoicon-:before { content: '\e833'; } /* '' */
+.windowsicon-:before { content: '\e834'; } /* '' */
+.xingicon-:before { content: '\e835'; } /* '' */
+.yahooicon-:before { content: '\e836'; } /* '' */
+.chromeicon-:before { content: '\e837'; } /* '' */
+.emailicon-:before { content: '\e838'; } /* '' */
+.macstoreicon-:before { content: '\e839'; } /* '' */
+.myspaceicon-:before { content: '\e83a'; } /* '' */
+.podcasticon-:before { content: '\e83b'; } /* '' */
+.amazonicon-:before { content: '\e83c'; } /* '' */
+.steamicon-:before { content: '\e83d'; } /* '' */
+.cloudappicon-:before { content: '\e83e'; } /* '' */
+.dropboxicon-:before { content: '\e83f'; } /* '' */
+.ebayicon-:before { content: '\e840'; } /* '' */
+.facebookicon-:before { content: '\e800'; } /* '' */
+.githubicon-:before { content: '\e841'; } /* '' */
+.googleplayicon-:before { content: '\e843'; } /* '' */
+.itunesicon-:before { content: '\e844'; } /* '' */
+.plurkicon-:before { content: '\e845'; } /* '' */
+.songkickicon-:before { content: '\e846'; } /* '' */
+.lastfmicon-:before { content: '\e847'; } /* '' */
+.gmailicon-:before { content: '\e848'; } /* '' */
+.pinboardicon-:before { content: '\e849'; } /* '' */
+.openidicon-:before { content: '\e84a'; } /* '' */
+.quoraicon-:before { content: '\e84b'; } /* '' */
+.soundcloudicon-:before { content: '\e84c'; } /* '' */
+.tumblricon-:before { content: '\e84d'; } /* '' */
+.eventasaurusicon-:before { content: '\e84e'; } /* '' */
+.wordpressicon-:before { content: '\e84f'; } /* '' */
+.yelpicon-:before { content: '\e850'; } /* '' */
+.intensedebateicon-:before { content: '\e851'; } /* '' */
+.eventbriteicon-:before { content: '\e852'; } /* '' */
+.scribdicon-:before { content: '\e853'; } /* '' */
+.posterousicon-:before { content: '\e854'; } /* '' */
+.stripeicon-:before { content: '\e855'; } /* '' */
+.opentableicon-:before { content: '\e856'; } /* '' */
+.carticon-:before { content: '\e857'; } /* '' */
+.printicon-:before { content: '\e858'; } /* '' */
+.angellisticon-:before { content: '\e859'; } /* '' */
+.instagramicon-:before { content: '\e85a'; } /* '' */
+.dwollaicon-:before { content: '\e85b'; } /* '' */
+.appneticon-:before { content: '\e85c'; } /* '' */
+.statusneticon-:before { content: '\e85d'; } /* '' */
+.acrobaticon-:before { content: '\e85e'; } /* '' */
+.buffericon-:before { content: '\e85f'; } /* '' */
+.pocketicon-:before { content: '\e860'; } /* '' */
+.github-circledicon-:before { content: '\e842'; } /* '' */
+.bitbucketicon-:before { content: '\e861'; } /* '' */
+.legoicon-:before { content: '\e862'; } /* '' */
+.loginicon-:before { content: '\e863'; } /* '' */
+.stackoverflowicon-:before { content: '\e864'; } /* '' */
+.hackernewsicon-:before { content: '\e865'; } /* '' */
+.lkdtoicon-:before { content: '\e802'; } /* '' */

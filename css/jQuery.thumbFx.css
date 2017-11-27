@@ -1,0 +1,54 @@
+/*-----------------------------------------------------------------------------
+
+version:   	1.0
+date:      	07/18/12
+author:		ThemeYourWeb
+email:      krittiyaclark@gmail.com
+twitter:    @themyourweb
+
+-----------------------------------------------------------------------------*/
+
+/***********************/
+/*** OverLayer Style ***/
+/***********************/
+
+/* General
+----------------------------------------------------------------------------------------------------*/
+
+.overlayer {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.overlayer .overlay { visibility: hidden }
+
+/* Default Style
+----------------------------------------------------------------------------------------------------*/
+
+.overlayer .overlay-default {
+    background: url(../img/overlay-zoom.png) 50% 50% no-repeat;
+    background-color: #5BBBA4;
+    opacity: 0.9; }
+
+/* Overlay Style
+----------------------------------------------------------------------------------------------------*/
+
+.overlayer .overlay {
+    /*background: url(../img/overlay-ie.png) 0 0 repeat;*/
+    opacity: 0.9;
+    text-shadow: none;
+	z-index:99;
+}
+
+.overlayer .overlay,
+.overlayer .overlay a { color: #fff }
+
+.overlayer .overlay a { text-decoration: underline }
+
+.overlayer .overlay > div { padding: 0 10px }
+
+.overlayer .overlay.remove-padding > div { padding: 0 }
+
+.overlayer .overlay > div > *:first-child { margin-top: 0 }
+
+.overlayer .overlay > div > *:last-child { margin-bottom: 0 }
